@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="xxx"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+
+                    <li> <a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>Our Certification And Online Programs For 2023</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certification And Online Programs For 2023</h2>
+                <p>In our University, we take pride in our commitment to maintaining high standards of quality education. Our certifications and accreditations are a testament to our dedication to excellence and continuous improvement.</p>
+                <p> This accreditation signifies that our institution meets or exceeds the established criteria for academic quality, institutional effectiveness, and ethical business practices. It is a mark of our ongoing commitment to providing a world-class education.</p>
+                <p>We adhere to rigorous quality assurance standards to ensure the continuous improvement of our academic programs and services. Our commitment to quality is reflected in certifications, demonstrating our dedication to delivering excellence in education.</p>
+                <p>Our University  has been honored with several awards and recognitions for our contributions to education, research, and community engagement. These accolades highlight our standing as a leading institution committed to making a positive impact on the world.</p>
+                <div class="coment-box">
+                    <h3>Leave Comment </h3>
+                    <form class="coment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="xxx" cols="30" rows="10" placeholder="Enter Your Comments"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post_Comment</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Mechine Learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Systems Design</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Embedded Systems</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Vlsi</span>
+                    <span>35</span>
+                </div>
+                
+                <div>
+                    <span>Networking</span>
+                    <span>31</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4> About Us</h4>
+        <p></p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/SNIST.SreenidhiEducationalGroup/">
+          <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/snist_sreenidhi/?hl=en"> <i class="fa-brands fa-instagram"></i></a> 
+           <a href="https://www.linkedin.com/school/sreenidhi-snist/posts/?feedView=all"> <i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/Sreenidhi_SNIST"> <i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>The page was made by Chandu</p>
+    </section>
+   
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        const showmenu = () => {
+            navlinks.style.right = "0";
+        }
+        const hidemenu = () => {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

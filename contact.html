@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="xxx"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+
+                    <li> <a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60906.43151337175!2d78.649496!3d17.428482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb7612c2c68369%3A0x9ea4b426b7e3699!2sSreenidhi%20Institute%20of%20Science%20%26%20Technology%20-%20SNIST!5e0!3m2!1sen!2sin!4v1694537259965!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>Sreenidhi Rood,Yamnampet,Ghatkesar</h5>
+                        <p>Telangana,Andhra Pradesh</p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+91 8523076842</h5>
+                        <p>Monday - Saturday ,From 10am - 9pm</p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>Sreenidhi.edu.in<h5>
+                        <p>contact us through e-mail</p>
+                    </span>
+
+                </div>
+            </div>
+            <div class="contact-col">
+                <h2>Enter Your Details</h2>
+                <form action="form-handiller.php">
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <input type="email"  name="email"  placeholder="Enter your email">
+                    <input type="text"  name="number"  placeholder="Enter your phone number">
+                    <input type="text"  name="subject"  placeholder="Enter your subject required">
+                    <textarea  rows="10"   name="message" placeholder="Enter the message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <h4> About Us</h4>
+        <p></p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/SNIST.SreenidhiEducationalGroup/">
+          <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/snist_sreenidhi/?hl=en"> <i class="fa-brands fa-instagram"></i></a> 
+           <a href="https://www.linkedin.com/school/sreenidhi-snist/posts/?feedView=all"> <i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/Sreenidhi_SNIST"> <i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p>The page was made by Chandu</p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        const showmenu = () => {
+            navlinks.style.right = "0";
+        }
+        const hidemenu = () => {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
